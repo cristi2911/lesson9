@@ -1,0 +1,106 @@
+:root {
+    --bg-color-primary: gray;
+    /* --text-font: 0.5rem;
+    --title-font: 1rem; */
+}
+
+body {
+    margin: 0;
+}
+
+.linear {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, red, blue, green);
+    animation: bg-animation 5s alternate infinite;
+    background-position: left;
+    background-size: 300%;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: center;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+
+/* .spinner {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.sector1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 15px solid transparent;
+    overflow: hidden;
+    border-radius: 50%;
+    animation: rotate 3s linear;
+}
+
+.sector2 {
+
+    border-bottom: 15px solid yellowgreen;
+}
+
+.sector3 {
+    border-left: 15px solid blueviolet;
+}
+
+.sector4 {
+    border-top: 15px solid darkgoldenrod;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+/* .square1 {
+    width: 250px;
+    height: 250px;
+    font-size: var(--title-font);
+    background-color: var(--bg-color-primary);
+    margin-bottom: 16px;
+    box-shadow: 0px 4px 4px black;
+    transition: width 3s;
+    transition: background-color 2s;
+    transition: color 5s;
+}
+
+.square1:hover {
+    width: 500px;
+    color: aqua;
+    background-color: red;
+} */
+/* .square2 {
+    width: 250px;
+    height: 250px;
+    font-size: var(--text-font);
+    background-color: var(--bg-color-primary);
+    margin-bottom: 16px;
+}
+.square3 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--bg-color-primary);
+    margin-bottom: 16px;
+}
+.square4 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--bg-color-primary);
+    margin-bottom: 16px;
+} */
